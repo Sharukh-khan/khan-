@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-int a, b ,c,d ;
-scanf("%d",&a); //getting integer from user 
-b=sizeof(a)*8;
-for(d=0;d<=b-1;d++){ // for loop with condition from 0 to 31 
+int a, b ,c,d ;                                                                                                  //step1
+scanf("%d",&a); //getting integer from user                                                                      //step2
+b=sizeof(a)*8;                                                                                                   //step3
+for(d=0;d<=b-1;d++){ // for loop with condition from 0 to 31                                                     //step4
   c=(1<<d)&a;    // shfting 1 integer with according to bit positon number and using AND operator
        if(c!=0){                         // if c is not equal to zero
-      printf("the lowest bit :%d",c);   //lowest bit
+      printf("the lowest bit :%d",c);   //lowest bit                                                             //step5
   break;
   }
   }
