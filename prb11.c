@@ -2,10 +2,10 @@
 
 int main()
 {
- int a,b; //declaring variables a,b
-  scanf("%d",&a);  //getting input from user
- b=a^(a|(~a));  //(1.inverting a ) (2.then using OR operator ) (3.and Then XOR)
-  printf("%d",b); //PRINTING VALUE with flip bits  
+ int a,b; //declaring variables a,b                                                  //step1
+  scanf("%d",&a);  //getting input from user                                          //step2
+ b=a^(a|(~a));  //(1.inverting a ) (2.then using OR operator ) (3.and Then XOR)      //step3
+  printf("%d",b); //PRINTING VALUE with flip bits                                   //step4
 }
 
          /*       
